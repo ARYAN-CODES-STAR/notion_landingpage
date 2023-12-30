@@ -6,7 +6,7 @@ import SidebarD from './SidebarD';
 export default function DocsComponent() {
   return (
     <>
-      {/* Static sidebar for mobile */}
+      
       <div className="md:hidden">
         <div className="flex min-h-0 flex-1 flex-col">
           <div className="flex flex-1 flex-col overflow-y-auto pt-5 pb-4 bg-white">

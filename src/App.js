@@ -10,6 +10,7 @@ import Join from "./components/Join";
 import Endless from "./components/Endless";
 import GetStarted from "./components/GetStarted";
 import Footer from './components/Footer';
+import Team from './components/Team';
 // import Endless from "./components/Endless"
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <CutCosts />
       <BuildBlock />
       <Customz />
+      <Team />
       <Join />
       <Endless />
       <GetStarted />

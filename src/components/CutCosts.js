@@ -1,12 +1,11 @@
 import React from "react";
 import img from "../assets/notion_page.png";
-import text from "../assets/textt.png"
+import text from "../assets/textt.png";
 
 function CutCosts() {
   return (
     <div className="items-center h-screen">
       <div className="flex-row">
-        {/* Title and Image */}
         <div className="ml-[30%]">
           <div className="flex mb-8 mt-64">
             <div>
@@ -26,32 +25,17 @@ function CutCosts() {
             />
           </div>
 
-          {/* Overlapping Images */}
           <div className="relative">
-            <img
-              src={img}
-              alt="Image 1"
-              className="absolute size-128 "
-            />
-
-           
-
-            {/* <img src="https://i.ibb.co/5WRrTWQ/GARBAGE-COLLECTION.png" alt="GARBAGE-COLLECTION" className="absolute w-3/6 min-h-80 "/> */}
+            <img src={img} alt="Image 1" className="absolute size-128 " />
           </div>
-          
-          {/* <div className="text-3xl">
-            We got rid of nearly a dozen different tools because of what Notion
-            does for us.
-          </div> */}
         </div>
         <img
-              src={text}
-              alt="Image 1"
-              className="absolute size-128 mt-[10%] ml-[17%] "
-            />
+          src={text}
+          alt="Image 1"
+          className="absolute size-128 mt-[10%] ml-[17%] "
+        />
       </div>
     </div>
-    // https://www.notion.so/cdn-cgi/image/format=webp,width=640/front-static/pages/home/tools-before-notion-V2.png
   );
 }
 
